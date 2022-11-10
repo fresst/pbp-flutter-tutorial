@@ -225,6 +225,7 @@ class _MyFormPageState extends State<MyFormPage> {
                                   shrinkWrap: true,
                                   children: <Widget>[
                                     const Center(child: Text('Informasi Data')),
+                                    Center(child: Text('Judul: ' + _namaLengkap)),
                                     const SizedBox(height: 20),
                                     // TODO: MUNCULKAN INFORMASI YANG DIDAPAT DARI FORM
                                     TextButton(
